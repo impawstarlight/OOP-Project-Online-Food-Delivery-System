@@ -1,0 +1,43 @@
+
+Login
+Register
+
+
+
+Customer {
+	Show Restaurants {
+	    Show foods {
+            Add to order
+	    }
+	    Show order
+	}
+}
+
+
+Restaurant {
+	Manage Food Menu {
+		Show Foods {
+			Categories {
+				Items
+			}
+		}
+		Add Food {
+			Name
+			Category {
+				Appetizer
+				Fast Food
+				Lunch / Dinner
+				Dessert
+				Soft Drink
+				Fresh Juice
+			}
+			Amount
+			Price
+		}
+	}
+	Create Offer {
+		Discount offer
+		Free offer
+		Bundle offer
+	}
+}
